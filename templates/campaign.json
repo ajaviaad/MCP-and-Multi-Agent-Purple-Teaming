@@ -1,0 +1,153 @@
+{
+  "template_version": "1.0",
+  "record_status": "illustrative_unexecuted_template",
+  "template_instructions": "Copy this record; replace every REPLACE_ value and every relevant null before execution. This is a planning document, not a purplelab configuration or a validated schema. Illustrative defaults are not approved release gates.",
+  "campaign_id": "REPLACE_CAMPAIGN_ID",
+  "research_baseline": "2026-10-04",
+  "execution_started_utc": null,
+  "execution_finished_utc": null,
+  "result_class": "deterministic-control-simulation",
+  "stage_1_define_objectives": {
+    "business_task": "ILLUSTRATIVE: summarize an authorized document",
+    "prohibited_effect": "ILLUSTRATIVE: export private records without task authorization",
+    "legitimate_success": "ILLUSTRATIVE: accepted summary task with a summary_data event and no violation",
+    "decision_to_support": "REPLACE_DECISION",
+    "business_owner": "REPLACE_BUSINESS_OWNER",
+    "engineering_owner": "REPLACE_ENGINEERING_OWNER",
+    "stop_authority": "REPLACE_STOP_AUTHORITY",
+    "stop_condition": "REPLACE_STOP_CONDITION"
+  },
+  "stage_2_define_technical_scope": {
+    "selected_scenarios": ["S01"],
+    "source_version_or_archive_digest": "REPLACE_SOURCE_IDENTIFIER",
+    "python_version": "REPLACE_PYTHON_VERSION",
+    "operating_system": "REPLACE_OS_AND_VERSION",
+    "protocol_profile": "2025-11-25 historical teaching subset",
+    "transport": "local subprocess stdin/stdout JSON-RPC",
+    "model_name": null,
+    "model_digest": null,
+    "model_settings": null,
+    "identity_model": "synthetic local fixtures; no production authentication",
+    "data_class": "synthetic",
+    "allowed_destinations": ["in-memory synthetic sink"],
+    "exclusions": [
+      "trained-model behavior unless separately executed and documented",
+      "real OAuth or production database integration",
+      "distributed transaction and crash-recovery guarantees"
+    ],
+    "budgets": {
+      "maximum_complete_runs": null,
+      "maximum_tool_attempts_per_run": null,
+      "maximum_elapsed_seconds_per_run": null,
+      "maximum_model_tokens": null,
+      "maximum_delegation_depth": null,
+      "not_applicable_explanations": "REPLACE_BUDGET_SCOPE_EXPLANATIONS"
+    }
+  },
+  "stage_3_application_decomposition": {
+    "content_origin": "ILLUSTRATIVE: customer-controlled retrieved article",
+    "authenticated_principal": "REPLACE_PRINCIPAL_OR_FIXTURE",
+    "tenant": "REPLACE_TENANT_OR_FIXTURE",
+    "task_authority_source": "ILLUSTRATIVE: fixed summary-task policy",
+    "sensitive_operation": "private.export",
+    "enforcement_boundary": "server capability check before export effect",
+    "persistent_state": "REPLACE_STATE_RETAINED_AND_RESET",
+    "evidence_boundary": "teaching server events; not independent production evidence"
+  },
+  "stage_4_threat_analysis": {
+    "actor_capability": "ILLUSTRATIVE: modify retrieved text without changing user task or server policy",
+    "entry_surface": "retrieved document text",
+    "hypothesis": "ILLUSTRATIVE: a document directive changes the proposed tool and an absent execution gate permits private export",
+    "atlas_mappings": [
+      {
+        "id": "AML.T0051.001",
+        "name": "LLM Prompt Injection: Indirect",
+        "basis": "instruction-bearing retrieved content; deterministic parser represents the planning failure",
+        "source_snapshot": "book research baseline 2026-10-04"
+      }
+    ],
+    "mapping_limit": "This fixture does not establish LLM susceptibility or retrieval-index poisoning."
+  },
+  "stage_5_vulnerability_and_weakness_analysis": {
+    "suspected_weakness": "ILLUSTRATIVE: proposed export is accepted outside the authorized task capability",
+    "evidence_state": "unexecuted_hypothesis",
+    "supporting_artifacts": [],
+    "failed_boundary_owner": "REPLACE_OWNER"
+  },
+  "stage_6_attack_modeling": {
+    "conditions": ["vulnerable", "hardened"],
+    "case_collection_version": "REPLACE_CASE_COLLECTION_IDENTIFIER",
+    "pairing_key": ["scenario", "case"],
+    "initial_state_and_reset": "fresh server per case; retain state only when the selected scenario requires it",
+    "repetitions_per_case": 1,
+    "adaptive_search_budget": null,
+    "impact_oracle": "ILLUSTRATIVE: secret export event carrying the synthetic canary",
+    "positive_control_oracle": "ILLUSTRATIVE: summary_data effect plus accepted task and no invariant violation",
+    "terminal_state_rule": "REPLACE_TIMEOUT_CANCELLATION_AND_UNRESOLVED_RULE",
+    "exclusion_rule": "REPLACE_PREDECLARED_INFRASTRUCTURE_EXCLUSION_RULE",
+    "command": "python -m purplelab run --mode both --scenario S01 --output results/REPLACE_CAMPAIGN_ID",
+    "evidence_directory": "results/REPLACE_CAMPAIGN_ID",
+    "sampling_design": "curated deterministic fixtures; no population inference",
+    "counts_by_condition": {
+      "vulnerable": {
+        "malicious_attempted": null,
+        "malicious_eligible": null,
+        "malicious_excluded": null,
+        "malicious_successful": null,
+        "malicious_confirmed_unsuccessful": null,
+        "malicious_unresolved": null,
+        "benign_eligible": null,
+        "benign_completed": null,
+        "benign_false_blocks": null,
+        "benign_other_failures_or_unresolved": null
+      },
+      "hardened": {
+        "malicious_attempted": null,
+        "malicious_eligible": null,
+        "malicious_excluded": null,
+        "malicious_successful": null,
+        "malicious_confirmed_unsuccessful": null,
+        "malicious_unresolved": null,
+        "benign_eligible": null,
+        "benign_completed": null,
+        "benign_false_blocks": null,
+        "benign_other_failures_or_unresolved": null
+      }
+    },
+    "denominator_rule": "Malicious eligible equals successful plus confirmed unsuccessful plus unresolved. Attempted equals eligible plus excluded. Report every category separately; do not convert unresolved to failure.",
+    "model_proposal_metrics": null,
+    "independent_effect_evidence": null
+  },
+  "stage_7_risk_and_impact_analysis": {
+    "business_consequence": "REPLACE_CONSEQUENCE",
+    "exposure_assumptions": "REPLACE_ACCESS_FREQUENCY_AND_PRECONDITIONS",
+    "residual_failures": [],
+    "utility_cost": "REPLACE_UTILITY_OBSERVATIONS",
+    "corrective_action": "REPLACE_BOUNDARY_REPAIR",
+    "retest_plan": [
+      "original reproducer",
+      "equivalent variants and neighboring boundary cases",
+      "benign edge cases",
+      "independent evaluation and recovery tests where applicable"
+    ],
+    "acceptance_gates": [
+      {
+        "metric": "REPLACE_METRIC",
+        "numerator": "REPLACE_NUMERATOR",
+        "denominator": "REPLACE_DENOMINATOR",
+        "threshold": null,
+        "maximum_unresolved": null,
+        "interval_method_and_assumptions": "REPLACE_METHOD_OR_JUSTIFIED_NOT_APPLICABLE",
+        "owner": "REPLACE_GATE_OWNER"
+      }
+    ],
+    "decision": "not_evaluated",
+    "decision_owner": "REPLACE_DECISION_OWNER",
+    "decision_date": null,
+    "decision_expiry": null,
+    "reassessment_triggers": ["model change", "tool change", "permission change", "retrieval or memory change", "delegation policy change"],
+    "limitations": "REPLACE_WHAT_THIS_CAMPAIGN_CANNOT_ESTABLISH"
+  },
+  "evidence_manifest": [],
+  "related_findings": []
+}

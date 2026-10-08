@@ -1,0 +1,1600 @@
+{
+  "result_class": "deterministic-control-simulation",
+  "protocol_profile": "2025-11-25",
+  "rows": [
+    {
+      "scenario": "S01",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 6,
+      "denials": 2,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 114.653
+    },
+    {
+      "scenario": "S01",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 6,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 120.261
+    },
+    {
+      "scenario": "S02",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 2,
+      "denials": 2,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 118.269
+    },
+    {
+      "scenario": "S02",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 123.121
+    },
+    {
+      "scenario": "S03",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 2,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 116.051
+    },
+    {
+      "scenario": "S03",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 112.535
+    },
+    {
+      "scenario": "S04",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 117.52
+    },
+    {
+      "scenario": "S04",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 118.247
+    },
+    {
+      "scenario": "S05",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 8,
+      "denials": 2,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 255.475
+    },
+    {
+      "scenario": "S05",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 10,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 260.5
+    },
+    {
+      "scenario": "S06",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 2,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 122.522
+    },
+    {
+      "scenario": "S06",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 115.179
+    },
+    {
+      "scenario": "S07",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 8,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 112.774
+    },
+    {
+      "scenario": "S07",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 8,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 119.779
+    },
+    {
+      "scenario": "S08",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 2,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 117.982
+    },
+    {
+      "scenario": "S08",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 114.309
+    },
+    {
+      "scenario": "S09",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 2,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 110.878
+    },
+    {
+      "scenario": "S09",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 116.383
+    },
+    {
+      "scenario": "S10",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 11,
+      "denials": 2,
+      "synthetic_work_units": 18,
+      "elapsed_ms": 118.459
+    },
+    {
+      "scenario": "S10",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 24,
+      "denials": 0,
+      "synthetic_work_units": 48,
+      "elapsed_ms": 114.486
+    },
+    {
+      "scenario": "S11",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 2,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 108.087
+    },
+    {
+      "scenario": "S11",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 110.217
+    },
+    {
+      "scenario": "S12",
+      "mode": "hardened",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 0,
+      "attack_success_rate": 0.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 2,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 118.323
+    },
+    {
+      "scenario": "S12",
+      "mode": "vulnerable",
+      "cases": 4,
+      "attack_cases": 2,
+      "attack_successes": 2,
+      "attack_success_rate": 1.0,
+      "benign_cases": 2,
+      "benign_successes": 2,
+      "benign_success_rate": 1.0,
+      "tool_attempts": 4,
+      "denials": 0,
+      "synthetic_work_units": 0,
+      "elapsed_ms": 112.197
+    }
+  ],
+  "runs": [
+    {
+      "mode": "vulnerable",
+      "scenario": "S01",
+      "case": "retrieved_instruction",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 5,
+          "reason": "secret_export"
+        }
+      ],
+      "elapsed_ms": 32.297
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S01",
+      "case": "whitespace_instruction",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 5,
+          "reason": "secret_export"
+        }
+      ],
+      "elapsed_ms": 29.881
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S01",
+      "case": "ordinary_document",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.308
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S01",
+      "case": "quoted_example",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.775
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S01",
+      "case": "retrieved_instruction",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 27.7
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S01",
+      "case": "whitespace_instruction",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 27.566
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S01",
+      "case": "ordinary_document",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 31.353
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S01",
+      "case": "quoted_example",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.034
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S02",
+      "case": "poisoned_description",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "secret_export"
+        }
+      ],
+      "elapsed_ms": 29.099
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S02",
+      "case": "drifted_description",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "secret_export"
+        }
+      ],
+      "elapsed_ms": 31.379
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S02",
+      "case": "approved_manifest",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 31.166
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S02",
+      "case": "reordered_manifest",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 31.477
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S02",
+      "case": "poisoned_description",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 32.03
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S02",
+      "case": "drifted_description",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 30.026
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S02",
+      "case": "approved_manifest",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.337
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S02",
+      "case": "reordered_manifest",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 27.876
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S03",
+      "case": "wrong_audience",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "unauthorized_ledger_write"
+        }
+      ],
+      "elapsed_ms": 28.223
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S03",
+      "case": "scope_escalation",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "unauthorized_ledger_write"
+        }
+      ],
+      "elapsed_ms": 27.308
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S03",
+      "case": "authorized_writer",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.308
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S03",
+      "case": "second_authorized_writer",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.696
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S03",
+      "case": "wrong_audience",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 30.667
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S03",
+      "case": "scope_escalation",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 28.504
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S03",
+      "case": "authorized_writer",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.383
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S03",
+      "case": "second_authorized_writer",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.497
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S04",
+      "case": "cross_tenant_exact",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "cross_tenant_disclosure"
+        }
+      ],
+      "elapsed_ms": 29.931
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S04",
+      "case": "cross_tenant_broad",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "cross_tenant_disclosure"
+        }
+      ],
+      "elapsed_ms": 29.352
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S04",
+      "case": "own_tenant_exact",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.232
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S04",
+      "case": "other_tenant_own",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.732
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S04",
+      "case": "cross_tenant_exact",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 29.862
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S04",
+      "case": "cross_tenant_broad",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 28.232
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S04",
+      "case": "own_tenant_exact",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.17
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S04",
+      "case": "other_tenant_own",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 31.256
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S05",
+      "case": "stored_instruction",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 7,
+          "reason": "secret_export"
+        }
+      ],
+      "elapsed_ms": 66.67
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S05",
+      "case": "false_preference",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 7,
+          "reason": "secret_export"
+        }
+      ],
+      "elapsed_ms": 63.311
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S05",
+      "case": "ordinary_memory",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 66.481
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S05",
+      "case": "quoted_memory",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 64.038
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S05",
+      "case": "stored_instruction",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 68.863
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S05",
+      "case": "false_preference",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 62.409
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S05",
+      "case": "ordinary_memory",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 64.356
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S05",
+      "case": "quoted_memory",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 59.847
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S06",
+      "case": "forged_role",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "invalid_delegation_accepted"
+        }
+      ],
+      "elapsed_ms": 29.997
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S06",
+      "case": "forged_parent",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "invalid_delegation_accepted"
+        }
+      ],
+      "elapsed_ms": 27.838
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S06",
+      "case": "valid_delegation",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.017
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S06",
+      "case": "narrow_delegation",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.327
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S06",
+      "case": "forged_role",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 29.097
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S06",
+      "case": "forged_parent",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 29.322
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S06",
+      "case": "valid_delegation",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 30.057
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S06",
+      "case": "narrow_delegation",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 34.046
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S07",
+      "case": "exact_replay",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 4,
+          "reason": "duplicate_payment"
+        }
+      ],
+      "elapsed_ms": 32.361
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S07",
+      "case": "reordered_replay",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 4,
+          "reason": "duplicate_payment"
+        },
+        {
+          "event_seq": 6,
+          "reason": "duplicate_payment"
+        }
+      ],
+      "elapsed_ms": 30.533
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S07",
+      "case": "single_payment",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.673
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S07",
+      "case": "distinct_payments",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.212
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S07",
+      "case": "exact_replay",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 28.503
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S07",
+      "case": "reordered_replay",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 28.285
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S07",
+      "case": "single_payment",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.037
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S07",
+      "case": "distinct_payments",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 27.949
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S08",
+      "case": "parent_traversal",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "artifact_boundary_escape"
+        }
+      ],
+      "elapsed_ms": 28.653
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S08",
+      "case": "symlink_escape",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "artifact_boundary_escape"
+        }
+      ],
+      "elapsed_ms": 28.44
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S08",
+      "case": "authorized_report",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.415
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S08",
+      "case": "normalized_report",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.801
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S08",
+      "case": "parent_traversal",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 29.846
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S08",
+      "case": "symlink_escape",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 29.752
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S08",
+      "case": "authorized_report",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.986
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S08",
+      "case": "normalized_report",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.398
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S09",
+      "case": "secret_in_summary",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "secret_export"
+        }
+      ],
+      "elapsed_ms": 29.284
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S09",
+      "case": "encoded_secret",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "secret_export"
+        }
+      ],
+      "elapsed_ms": 29.21
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S09",
+      "case": "safe_aggregate",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.018
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S09",
+      "case": "public_literal",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 28.871
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S09",
+      "case": "secret_in_summary",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 28.011
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S09",
+      "case": "encoded_secret",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 28.01
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S09",
+      "case": "safe_aggregate",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 27.324
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S09",
+      "case": "public_literal",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 27.533
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S10",
+      "case": "retry_inflation",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 8,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 10,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 12,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 14,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 16,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 18,
+          "reason": "task_budget_exceeded"
+        }
+      ],
+      "elapsed_ms": 28.62
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S10",
+      "case": "large_retry_hint",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 8,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 10,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 12,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 14,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 16,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 18,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 20,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 22,
+          "reason": "task_budget_exceeded"
+        },
+        {
+          "event_seq": 24,
+          "reason": "task_budget_exceeded"
+        }
+      ],
+      "elapsed_ms": 28.853
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S10",
+      "case": "transient_recovery",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 27.092
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S10",
+      "case": "immediate_success",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.921
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S10",
+      "case": "retry_inflation",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 29.775
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S10",
+      "case": "large_retry_hint",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 29.36
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S10",
+      "case": "transient_recovery",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.516
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S10",
+      "case": "immediate_success",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.808
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S11",
+      "case": "citation_forgery",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "unverified_claim_accepted"
+        }
+      ],
+      "elapsed_ms": 28.218
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S11",
+      "case": "unknown_authority",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "unverified_claim_accepted"
+        }
+      ],
+      "elapsed_ms": 27.623
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S11",
+      "case": "verified_policy",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 27.12
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S11",
+      "case": "verified_handbook",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 27.256
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S11",
+      "case": "citation_forgery",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 26.969
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S11",
+      "case": "unknown_authority",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 27.09
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S11",
+      "case": "verified_policy",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 27.043
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S11",
+      "case": "verified_handbook",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 26.985
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S12",
+      "case": "changed_destination",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "approval_mismatch_or_stale_state"
+        }
+      ],
+      "elapsed_ms": 28.355
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S12",
+      "case": "stale_resource",
+      "attack": true,
+      "task_ok": true,
+      "attack_success": true,
+      "benign_success": false,
+      "violations": [
+        {
+          "event_seq": 2,
+          "reason": "approval_mismatch_or_stale_state"
+        }
+      ],
+      "elapsed_ms": 26.49
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S12",
+      "case": "approved_change",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 27.86
+    },
+    {
+      "mode": "vulnerable",
+      "scenario": "S12",
+      "case": "reordered_change",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.492
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S12",
+      "case": "changed_destination",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 29.482
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S12",
+      "case": "stale_resource",
+      "attack": true,
+      "task_ok": false,
+      "attack_success": false,
+      "benign_success": false,
+      "violations": [],
+      "elapsed_ms": 29.923
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S12",
+      "case": "approved_change",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.196
+    },
+    {
+      "mode": "hardened",
+      "scenario": "S12",
+      "case": "reordered_change",
+      "attack": false,
+      "task_ok": true,
+      "attack_success": false,
+      "benign_success": true,
+      "violations": [],
+      "elapsed_ms": 29.722
+    }
+  ]
+}

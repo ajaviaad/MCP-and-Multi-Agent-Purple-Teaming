@@ -1,0 +1,42 @@
+{
+  "name": "MCP and Multi-Agent Purple Teaming — Companion Repository",
+  "version": "1.0.0",
+  "release_date": "2026-10-08",
+  "license": "MIT",
+  "book_research_cutoff": "2026-10-04",
+  "atlas_content_release": "2026.09",
+  "book_mcp_reference_version": "2026-07-28",
+  "executable_mcp_profile": "2025-11-25 historical stdio teaching subset",
+  "python_requirement": ">=3.11",
+  "runtime_dependencies": "Python standard library; optional external Ollama runtime for model proposals",
+  "original_book_files_byte_identical": true,
+  "original_book_files_sha256": {
+    "purplelab/__init__.py": "4651206c8ff89e1a42500d3fdfd4000cf5e50b2c147a06062488ead1794a2e5c",
+    "purplelab/__main__.py": "982976b5921afbc741885fea6bf3377366cd60bec745f35f456b973dc67f08cd",
+    "purplelab/common.py": "c78ba88b103cf505a95b5e0a6ae3d964148711a193257a3372360070bd35b1dc",
+    "purplelab/cases.py": "729484dd2e6e891d125f40b906523a80c02f936b8b0f85279af80796314256f6",
+    "purplelab/server.py": "1ee67f91faac83a68f3459466550e1e35a9767f5dd9cd6d292ac5dc9b1849de3",
+    "purplelab/runner.py": "e46b933c851b941d579e66e8382c2b8d2f9171def3103963966ab2a2af32be98",
+    "purplelab/model_probe.py": "5d9735a1cbe0abcda89e30492915d27e5bfbdece345e5b1d2a544883502ce276",
+    "tests/test_lab.py": "d5af7524fb609f49ff34b801ccb07c15fb3cc21fc00ecc6ed8cc669475156394",
+    "field_server.py": "b55d3f7a029571dafc2990b6b54ba01edf2a3db9f7b4a550c7bad2a30ca9d3ef",
+    "decision_stats.py": "72b68108b8f131d0fa570e0c135ef3c80eab33f84eca174d03afee8e40fc4ccb"
+  },
+  "local_validation": {
+    "execution_date": "2026-10-08",
+    "python": "3.12.14",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "test_methods": 45,
+    "scenario_executions": 96,
+    "field_route_self_test": "passed without a bound socket",
+    "statistics_demo": "passed; constructed data",
+    "model_transport": "mocked tests only",
+    "live_model_inference": false,
+    "hosted_ci_executed": false
+  },
+  "integrity": {
+    "file_manifest": "SHA256SUMS",
+    "signature": null,
+    "interpretation": "Unsigned digests detect changes; they do not authenticate an author."
+  }
+}

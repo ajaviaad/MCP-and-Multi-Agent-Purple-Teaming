@@ -1,0 +1,43 @@
+{
+  "release": "1.0.0",
+  "result_class": "deterministic-control-simulation",
+  "execution_date": "2026-10-08",
+  "python": "3.12.14",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "working_directory": "repository root",
+  "command": "python -m purplelab run --mode both --scenario all --output examples/baseline",
+  "actual_execution": true,
+  "post_execution_evidence_reconciliation": "passed with scripts/validate.py check_matrix",
+  "matrix": {
+    "executions": 96,
+    "scenario_groups": 24,
+    "totals": {
+      "hardened": {
+        "executions": 48,
+        "attack_cases": 24,
+        "attack_successes": 0,
+        "benign_cases": 24,
+        "benign_successes": 24
+      },
+      "vulnerable": {
+        "executions": 48,
+        "attack_cases": 24,
+        "attack_successes": 24,
+        "benign_cases": 24,
+        "benign_successes": 24
+      }
+    },
+    "evidence_records": {
+      "event": 302,
+      "protocol": 790
+    },
+    "result_class": "deterministic-control-simulation"
+  },
+  "interpretation": "Observed deterministic control simulation; no live trained-model execution.",
+  "timing_note": "Elapsed values include local process overhead and vary by system.",
+  "report_files_sha256": {
+    "evidence.jsonl": "f9f090996766232ad7048aed3e83593c6b34957cabe2a16b0b38f262a351bb3e",
+    "summary.csv": "db20c7132a968dde01440be4af2fef6190525982b7e2d97ffba6ea26bfffa951",
+    "summary.json": "3948b33988207b666fa37a3cbaf38c60ccc1756b2e70bdbe085fb5f8ca805971"
+  }
+}
